@@ -26,30 +26,3 @@ Scikit-learn – for training prediction models.
 TA-Lib – for calculating technical analysis indicators (like Moving Average, RSI).
 TextBlob / VaderSentiment – for performing sentiment analysis.
 Twilio – for sending SMS reports.
-How to Install Dependencies:
-You can install the required dependencies by running the following command:
-
-bash
-Copy code
-pip install -r requirements.txt
-Here’s what your requirements.txt file should look like:
-
-requirements.txt:
-makefile
-Copy code
-streamlit==1.21.0
-pandas==1.5.3
-matplotlib==3.7.1
-plotly==5.13.0
-scikit-learn==1.2.0
-TA-Lib==0.4.0
-textblob==0.15.3
-vaderSentiment==3.3.2
-twilio==7.16.0
-
-
-Run the app:
-
-bash
-Copy code
-streamlit run app.py
